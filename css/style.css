@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  width: 960px;
+}
+
+header {
+  position: relative;
+}
+
+header #icons {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: 685px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#logos img {
+  float: left;
+}
+
+#icons li {
+  display: inline-block;
+  /* float: right; */
+}
+
+#icons li:nth-child(6) {
+  margin-right: 10px;
+}
+
+#webTitle {
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+#title {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.3em;
+}
+
+#description {
+  font-size: 0.6em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.horizontal-ruler {
+  padding: 0.5rem;
+  margin-top: 20px;
+  /* border: 10px solid gray; */
+  color: white;
+  background: repeating-linear-gradient(
+    45deg,
+    white,
+    white 2px,
+    #737373 2px,
+    #737373 4px
+  );
+}
+
+main h1 {
+  margin-top: 50px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 2.5em;
+}
+
+main h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-bottom: 30px;
+  color: #737373;
+}
+
+main h3 span {
+  float: right;
+}
+
+#contents {
+  margin: 30px 0px;
+}
+
+#contents p {
+  text-indent: 50px;
+  color: #737373;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+
+#ingredients {
+  position: relative;
+  display: inline-block;
+}
+
+#ingredients #list {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 10%;
+}
+
+#list {
+  position: relative;
+  font-family: 'Handlee', cursive;
+  font-size: 1.5em;
+}
+
+#first-list {
+  margin-left: 20px;
+}
+
+#list #second-list {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 450px;
+  right: 0;
+  top: 0;
+}
+
+#van-profile img {
+  float: left;
+}
+
+#van-profile ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #737373;
+  margin-top: 30px;
+}
+
+footer {
+  position: relative;
+}
+
+footer .share-button {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  right: 0;
+  top: 0;
+  margin-left: 685px;
+}
+
+.share-button {
+  background-color: salmon;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 1.4em;
+  float: right;
+}
+
+#van-intoduction {
+  width: 550px;
+  padding-left: 0;
+}
+
+.divider {
+  margin-top: 70px;
+  position: relative;
+}
+
+.divider img {
+  margin-bottom: -12px;
+}
+
+.horizontal-ruler-thin {
+  width: 455px;
+  display: inline-block;
+}
+
+.published {
+  margin: 50px 0px;
+  text-align: center;
+  color: #737373;
+}
