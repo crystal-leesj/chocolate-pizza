@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+ul {
+  padding: 0;
+}
+
 body {
   width: 960px;
 }
@@ -162,8 +166,9 @@ footer .share-button {
 }
 
 #van-intoduction {
-  width: 550px;
+  width: 600px;
   padding-left: 0;
+  margin-right: 260px;
 }
 
 .divider {
